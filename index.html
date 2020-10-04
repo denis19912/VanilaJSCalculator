@@ -5,8 +5,10 @@
     <meta charset="utf-8" />
 
     <title>Calculator</title>
-    <meta name="description" content="The HTML5 Herald" />
-    <meta name="author" content="SitePoint" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="css/styles.css?v=1.0" />
@@ -14,7 +16,28 @@
 
   <body>
     <div class="container">
-      <div class="calculator"></div>
+      <div class="calculator">
+        <div class="calculator__display">0</div>
+        <div class="calculator__keys">
+          <button class="operators plus">+</button>
+          <button class="operators minus">-</button>
+          <button class="operators times">&times;</button>
+          <button class="operators divide">&divide;</button>
+          <button class="number one">1</button>
+          <button class="number two">2</button>
+          <button class="number three">3</button>
+          <button class="number four">4</button>
+          <button class="number five">5</button>
+          <button class="number six">6</button>
+          <button class="number seven">7</button>
+          <button class="number eight">8</button>
+          <button class="number nine">9</button>
+          <button class="number zero">0</button>
+          <button class="number deciaml">.</button>
+          <button class="number clear">C</button>
+          <button class="equal">=</button>
+        </div>
+      </div>
     </div>
     <script src="./js/main.js"></script>
   </body>
